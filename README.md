@@ -9,5 +9,6 @@ This repository contains my HTML and CSS projects completed while following the 
 - ✅ Cat Photo App
 - ✅ Recipe Page
 - ✅ Bookstore Page
+- ✅ Travel Agency Page
 
 More projects will be added as I progress through the curriculum.
