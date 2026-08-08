@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <header>
+    <div style="height:70px;background: linear-gradient(135deg, #a4ffec, #aae0fa);">
+    <h1 id="title">Product Review Questionnaire</h1>  </div> 
+    <div>
+      <p id="description">
+        We value your feedback! Please take a moment to share your experience with our product. Your responses will help us improve our products and provide a better customer experience.
+      </p>
+    </div></header>
+    <main>
+      <div
+      style="background:linear-gradient(135deg, #d7a9d7ff 0%, #FFD2A9 100%)" >
+      
+      <form id="survey-form">
+        <table>
+          <tr>
+        <td><label for="name" id="name-label">Full Name: </label></td><td>
+      <input id="name" type="text" name="name"  required 
+      placeholder="eg.,Sheldon Lee Cooper"></td>
+      </tr>
+      <tr>
+      <td><label for="email" id="email-label">Email: </label></td> <td>
+      <input id="email" type="email" name="email"  required placeholder="eg.,name@mail.com"></td></tr>
+      <tr><td>
+      <label for="number" id="number-label">Age: </label></td><td>
+      <input id="number" placeholder="10" type="number" name="number"  required min="10" max="100">
+      </td></tr>
+      <tr>
+    <td>
+        <label for="customer-id">Customer ID: </label>
+    </td>
+    <td>
+        <input 
+            id="customer-id" 
+            type="text" 
+            name="customer-id" 
+            placeholder="CUST001"
+            required>
+    </td>
+</tr>
+
+<tr>
+    <td>
+        <label for="purchase-date">Date of Purchase: </label>
+    </td>
+    <td>
+        <input 
+            id="purchase-date" 
+            type="date" 
+            name="purchase-date"
+            required>
+    </td>
+</tr>
+
+<tr>
+    <td>
+        <label for="transaction-id">Transaction ID: </label>
+    </td>
+    <td>
+        <input 
+            id="transaction-id" 
+            type="text" 
+            name="transaction-id" 
+            placeholder="TXN123456"
+            required>
+    </td>
+</tr>
+
+<tr>
+  <td><label for="dropdown">Product Rating:</label></td><td>
+      <select id="dropdown" name="product-rating">
+    <option value="">Select a rating</option>
+    <option value="5">5 - Excellent</option>
+    <option value="4">4 - Very Good</option>
+    <option value="3">3 - Good</option>
+    <option value="2">2 - Fair</option>
+    <option value="1">1 - Poor</option>
+</select></td>
+  </tr>
+  <tr>
+    <td>
+        <label>Would you recommend this product?</label>
+    </td>
+    <td>
+        <input 
+            type="radio" 
+            id="recommend-yes" 
+            name="recommend" 
+            value="yes">
+        <label for="recommend-yes">Yes</label>
+
+        <input 
+            type="radio" 
+            id="recommend-no" 
+            name="recommend" 
+            value="no">
+        <label for="recommend-no">No</label>
+    </td>
+</tr>
+<tr>
+    <td>
+        <label>What did you like about the product?</label>
+    </td>
+    <td>
+        <input type="checkbox" id="quality" name="liked" value="quality">
+        <label for="quality">Product Quality</label>
+
+        <br>
+
+        <input type="checkbox" id="price" name="liked" value="price">
+        <label for="price">Price</label><br>
+        <input type="checkbox" id="design" name="liked" value="design">
+<label for="design">Design</label>
+    </td>
+</tr>
+<tr>
+    <td>
+        <label for="comments">Additional Comments:</label>
+    </td>
+    <td>
+        <textarea 
+            id="comments" 
+            name="comments" 
+            placeholder="Enter your feedback here..."></textarea>
+    </td>
+</tr>
+<tr>
+    <td colspan="2">
+        <button id="submit" type="submit">Submit</button>
+    </td>
+</tr>
+      </table>
+      
+      </form>
+      </div>
+    </main>
+  </body>
+</html>
