@@ -4,14 +4,17 @@ This repository contains my solutions and projects completed while following the
 
 ## 🚀 Projects
 
+## 🚀 Projects
+
 | No. | Project | Status |
-|----:|---------|:------:|
-| 1 | Cat Photo App | ✅ |
-| 2 | Recipe Page | ✅ |
-| 3 | Bookstore Page | ✅ |
-| 4 | Travel Agency Page | ✅ |
-| 5 | Video Compilation Page | ✅ |
-| 6 | Event Hub | ✅ |
+|:---:|---------|:------:|
+| 01 | Cat Photo App | ✅ |
+| 02 | Recipe Page | ✅ |
+| 03 | Bookstore Page | ✅ |
+| 04 | Travel Agency Page | ✅ |
+| 05 | Video Compilation Page | ✅ |
+| 06 | Event Hub | ✅ |
+| 07 | Survey Form | ✅ |
 
 > More projects will be added as I progress through the curriculum.
 
